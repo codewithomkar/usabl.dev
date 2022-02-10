@@ -1154,6 +1154,18 @@ top:18rem;
     font-size: 1.2rem;
 }
 }
+    
+ @media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
 @media only screen and  (max-width:865px) {
     
 
