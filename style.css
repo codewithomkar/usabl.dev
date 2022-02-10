@@ -1,0 +1,1197 @@
+
+.container{
+    
+    /* background-color: rgb(188, 224, 224); */
+    height: 12vh;
+    width: 97vw;
+    display: flex;
+    /* overflow: hidden; */
+
+
+}
+
+ul{
+    position: relative;
+    /* left: 6rem; */
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+    
+    }
+    .us{
+        color: blue;
+    font-weight: bold;
+    font-size: 1.3rem;
+    position: relative;
+    left: 5rem;
+    }
+    nav .openmenu{
+        font-size: 20px;
+        margin: 20px;
+        display: none;
+    }
+   .container .list .closemenu ,.icons i{
+       font-size: 2rem;
+       color:white;
+       display: none;
+
+   }
+    li{
+        padding: 1rem 1.2rem;
+       font-size: 1rem;
+       position: relative;
+       left: 7rem;
+       text-decoration: underline;
+       cursor: pointer;
+       color: rgb(59, 53, 53);
+    }
+    li a{
+        font-size:1.5rem;
+    }
+    li:hover{
+    color: rgb(93, 19, 230);
+    }
+    .btn{
+        position: relative;
+        left: 6rem;
+        width: 8rem;
+        top: .3rem;
+        height: 2.5rem;
+        text-align: center;
+        /* background: linear-gradient(#7c3aed, #4f46e5); */
+        border-radius: 0.4rem;
+        /* border: 3px solid black; */
+        color:white;
+        font-weight:bold;
+        border: none;
+        font-size: 1rem;
+         background-image: linear-gradient(rgb(43, 26, 192), rgb(49, 23, 199));
+    }
+    
+      /* Add a grey background color on mouse-over */
+.list a:hover {
+    /* background-color: rgb(39, 34, 34); */
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  
+  .line{
+      display: none;
+    width: 34px;
+    height: 4px;
+    background-color: black;
+    margin: 3px 0;
+  }
+/* ------------------------------HOME SECTION****************************** */
+    #home{
+        width: 90vw;
+        height: 84vh;
+        background: url("/background.jpg") center/cover no-repeat;
+        overflow: hidden;
+        margin-left: 3.2rem;
+        border-radius: 2rem;
+        /* overflow: hidden; */
+        
+
+    }
+     #home::before{
+        background: rgba(91, 89, 211, 0.5);    
+    
+        content: "";
+        position: absolute;
+        top: 4.8rem;
+        /* overflow: hidden; */
+        height: 84vh;
+        width: 90vw;
+        border-radius: 2rem;
+        /* opacity: 20; */
+    } 
+    
+    
+        
+    .head1{
+        width: 74vw;
+        color: white;
+        font-size: 4.5rem;
+        position: absolute;
+        top: 7.3rem;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        left: 9rem;
+        /* background-color:rgb(170, 119, 119) ; */
+    }
+    .head2{
+        font-size: 3.6rem;
+        width: 63vw;
+        color: rgb(210 214 231);
+        position: absolute;
+        left: 16rem;
+        top: 12.3rem
+    
+    }
+    
+    .homepara{
+        font-size: 1.4rem;
+        width: 67vw;
+        overflow: hidden;
+        position: absolute;
+        color: rgb(233, 220, 220);
+        left: 15rem;
+        bottom: 15rem;
+    }
+    .btn2{
+        
+        position: absolute;
+        left: 32rem;
+        bottom: 9rem;
+
+        
+    }
+    .start{
+        font-size: 1rem;
+        /* height:3vh; */
+        padding: 0.7rem;
+        width: 36vh;
+        font-weight: bold;
+        /* background-color: rgb(163, 163, 235); */
+        border-radius: 1rem;
+        position: relative;
+        cursor: pointer;
+        right: 9rem;
+        color: rgb(55, 55, 163);
+        margin: 20px;
+        border: none;
+        border-radius: 0.3rem;
+    }
+    .startclass{
+        position: relative;
+        top:1rem;
+        color: whitesmoke;
+    
+    }
+    .start:hover{
+     
+        color: rgb(100, 30, 230);
+    }
+    .developer:hover{
+        background-color: rgba(84, 129, 202, 0.6);
+        /* color: rgb(100, 30, 230); */
+    }
+    
+    .developer{
+        font-size: 0.9rem;
+        padding: 1rem;
+        background-color: rgba(80, 126, 201, 0.5);
+        width: 35vh;
+        transform: none;
+        border-radius: 0.5rem;
+        color: white;
+        position: relative;
+        right: 9rem;
+        cursor: pointer;
+        font-weight: bold;
+        border:none;
+    }
+    #rapid{
+        height: 60vh;
+        display: flex;
+        /* overflow: hidden; */
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;      
+    }
+    
+    .heading{
+        font-size: 2.5rem;
+        text-align: center;
+        position: relative;
+        left: 0rem;
+        top: 5rem;
+    }
+    
+    #rapid .box{
+        height: 25rem;
+    width: 82vw;
+    display: flex;
+    
+    }
+    
+    .box_head{
+       width: 70rem;
+      height: 10vh; 
+      font-size: 1rem;
+      color: black
+      /* background-color: blueviolet; */
+    }
+    .center{
+        position: relative;
+        top: 10rem;
+        left: -2rem;
+        border: 5rem;
+        height: 20vh;
+        font-size: 1rem;
+        text-align: center;
+        align-items: center;
+        border: 2px solid black;
+       width: 250vw;
+        /* width: 50%; */
+        color: rgb(63, 55, 55);
+    }
+    
+    .box img{
+        position: relative;
+    left: 15rem;
+    top: 8.2rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 0.3rem;
+        /* fill: none; */
+        /* background-color: aqua; */
+       
+    }
+    
+    .p{
+        width: 20rem;
+        color: black;
+        position: relative;
+        top: 13rem;
+        font-size: 1rem;
+        left: 8rem;
+    } 
+    .h1{
+        font-weight: bold;
+        width: 20rem;
+        color: black;
+        position: relative;
+        top: 12rem;
+        font-size: 1.2rem;
+        left: 9rem;
+    }
+    
+   
+    /* ***********rapid2 start***** */
+    #rapid2{
+        /* background-color: rgb(68, 69, 99); */
+        height: 60vh;
+        
+        /* overflow: hidden; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .box2{
+        display: flex;
+        width: 20vw;
+       
+    
+    }
+    .box2 img{
+        position: relative;
+       left: 15rem;
+       bottom: 5.2rem;
+       height: 3rem;
+       width: 3rem;
+       border-radius: 0.3rem;
+       right: 1rem;
+       left: 22rem;
+        /* fill: none; */
+        /* background-color: aqua; */
+       
+    }
+    
+    
+    .box2 .h1 {
+        width: 25rem;
+        color: black;
+        position: relative;
+        top: 0rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        left: 15rem;
+    }
+    
+
+.box2 .p{
+    width: 20rem;
+    color: black;
+    position: relative;
+    top: 0.8rem;
+    /* font-size: 1.2rem; */
+    /* font-weight: bold; */
+    left: 17rem;
+}
+.box2 .p1{
+    width: 20rem;
+    color: black;
+    position: relative;
+    top: 1rem;
+    /* font-size: 1.2rem; */
+    /* font-weight: bold; */
+    left: 14rem;
+}
+.box2 .h2 {
+    width: 20rem;
+    color: black;
+    position: relative;
+    /* top: 0rem; */
+    font-size: 1.2rem;
+    font-weight: bold;
+    left: 14rem;}
+
+ .box .p1{
+    width: 20rem;
+    color: black;
+    position: relative;
+    top: 5rem;
+    font-size: 1rem;
+    left: 7rem;
+}
+    
+
+    .Actionable{
+        height: 50vh;
+        width: 98vw;
+    }
+    .takeaways{
+        text-align: center;
+        font-size: 1.6rem;
+        position: relative;
+        top: 2rem;
+        text-decoration: underline;
+    
+    }
+    #para4{
+        text-align: center;
+    font-size: 1.1rem;
+    position: relative;
+    top: 3rem;
+    color: rgb(68, 72, 83);
+    width: 34rem;
+    left: 25rem;
+    
+    }
+    h3{
+        text-align: center;
+        font-size: 1rem;
+        position: relative;
+        top: 1rem;
+        color: royalblue;
+        text-decoration: underline;
+    }
+    .Actionable img{
+        width: 90vw;
+        height: 100vh;
+        position: relative;
+        left: 4.5rem;
+        top: 6rem;
+    }
+    
+    /* **********testing*************** */
+    .testing1{
+        position: relative;
+        top: 10rem;
+        height:60vh;
+        /* display: flex; */
+        /* background-color: rgb(189, 146, 146); */
+        width:60%;
+        /* overflow: hidden; */
+    }
+    .testing1 img{
+        width: 44px;
+        height: 49px;
+        border-radius: 10px;
+        position: relative;
+        top: 1rem;
+        left: 2.2rem;
+    }
+    #test{
+        /* color: #232f3e; */
+        color: black;
+        font-size: bold;
+        /* background-color: blueviolet; */
+        width: 75%;
+        font-size: 1.9rem;
+        position: relative;
+        font-family: 'Montserrat' sans-serif;
+        top: 1.6rem;
+        left: 2rem;
+    }
+    #testpara{
+    position: relative;
+    top: 2.5rem;
+    width: 60%;
+    height: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    left: 2rem;
+    font-size: 1.1rem;
+    color: rgb(77, 68, 68);
+    /* background-color: blueviolet; */
+    }
+    #testbtn{
+        position: relative;
+        left: 2rem;
+        width: 8rem;
+        top: 2.5rem;
+        height: 3rem;
+        background: linear-gradient(#7c3aed, #4f46e5);
+        border-radius: 0.5rem;
+        /* border: 3px solid black; */
+        color: white;
+        font-weight: bold;
+        font-size: 1rem;
+    
+    }
+    
+    .testingmage img{
+        height: 105%;
+        width: 65%;
+        position: absolute;
+        top: -4rem;
+        left: 35rem;
+        display: flex;
+        background-color: white;
+    
+    }
+    
+    #integrated{
+        width: 100vw;
+        height: 110vh;
+        /* display: flex; */
+        position: relative;
+        /* overflow: hidden; */
+        top: 30rem;
+        /* background-color: rgb(211, 145, 145); */
+    
+    }
+    .item{
+        position: relative;
+        left: -2rem;
+        color: black;
+        text-align: center;
+    }
+    .itemp{
+        font-size: 1rem;
+        color: rgb(58, 38, 145);
+        position: relative;
+    }
+    .itemp1{
+        position: relative;
+        font-size: 2rem;
+        bottom: 1.5rem;
+        font-weight: bold;
+    }
+    .itemp3{
+        position: relative;
+        bottom: 3rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: rgb(63, 61, 61);
+    }
+    .integ{
+        position: relative;
+        top: 12rem;
+        display: flex;
+        right: 1rem;
+        /* overflow: hidden; */
+    }
+    .intgret{
+        display: flex;
+    }
+    .intgret img{
+    position: relative;
+    left: 17rem;
+    top: -7rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.2rem;
+    }
+    .github{
+    /* background-color: blueviolet; */
+    position: relative;
+    height: 20vh;
+    top: -4rem;
+    left: 6rem;
+    }
+
+    .github p{
+        
+        width: 18rem;
+        text-align: center;
+        /* background-color: rgb(155, 109, 109); */
+        border: 2px;
+        font-size: 1rem;
+        left: 5rem;
+    }
+    .github .head{
+        text-align: center;
+        font-size: 1.4rem;
+        position: relative;
+        left: 1.5rem;
+    }
+
+    .create{
+    /* overflow: hidden;     */
+    height: 200vh;
+    width: 98vw;
+    }
+.template{
+    position: relative;
+    top: 35rem; 
+ }
+ .container1{
+     position: relative;
+     top: 14rem;
+     height: 200vh;
+     /* overflow: hidden; */
+     width: 100vw;
+     -webkit-box-shadow: 1px 3px 6px 0px rgba(248, 241, 241, 0.3);
+     background-color: rgb(245, 248, 241);
+ }
+ .task{
+     /* background-color: chocolate; */
+     color: rgb(90, 41, 223);
+     text-align: center;
+     font-size: 1rem;
+     position: relative;
+     left: 1rem;
+     top: 4rem;
+ }
+ 
+ .temp{
+     color: rgb(31, 29, 29);
+     /* background-color: blue; */
+     text-align: center;
+     font-size: 2rem;
+     position: relative;
+     left: 1rem;
+     font-weight: bold;
+     top: 3rem;
+     font-family: monospace;
+ }
+ 
+ .text{
+     color: rgb(59, 50, 50);
+     text-align: center;
+     font-family: 'Montserrat', sans-serif;
+     position: relative;
+     left: 2rem;
+     font-size: 1.2rem;
+     top: 2rem;
+ }
+ .container1 img{
+    height: 100vh;
+    width: 84vw;
+    position: relative;
+    top: 5rem;
+    left: 8rem;
+    /* -webkit-box-shadow: -3px -3px 11px 31px rgba(255, 255, 255, 0.6); */
+    background-color: #cd2828;
+ 
+ 
+ }
+ .start1{
+ position: relative;
+ background-color: rgb(40, 40, 206);
+ left: 3.7rem;
+  height: 60vh;
+  width: 90vw;
+  border-radius: 1.5rem;   
+ }
+ .start2{
+     display: flex;
+     color: white;
+     position: relative;
+     left: 4rem;
+     width: 35%;
+     /* background-color: yellowgreen; */
+     font-size: 2.2rem;
+     top: 5rem;
+     
+ }
+ .start1 img{
+     width: 40vw;
+     height: 40vh;
+     position: relative;
+     left:36rem;
+     top: -1rem;
+    
+ }
+ .startclass{
+    
+     /* background-color: yellow; */
+     top: -12rem;
+     width: 40%;
+     left: 4rem;
+     font-size: 1.2rem;
+ }
+ .startbtn{
+     position: relative;
+     top: -7rem;
+     left:4rem;
+     padding: 1rem 1rem;
+     width: 10rem;
+     border-radius: 0.5rem;
+     outline: none;
+     border: none;
+ 
+ }
+ .Moderated_testing{
+     height: 100vh;
+     width: 90vw;
+     position: relative;
+    top: 3rem;
+     background-color: rgb(255, 255, 255);
+     display: flex;
+     
+ }
+ .Moderated_testing img{
+     height: 80vh;
+     width: 45vw;  
+     position: relative;
+     -webkit-box-shadow: 1px 3px 6px 0px rgba(0,0,0,0.30);
+      background-color: white;
+     left: -5rem;
+     top: 0;
+     
+ }
+ .l_shape img{
+     height: 9vh;
+     width: 5vw;
+     position: relative;
+     top: 7rem;
+     left: 2.5rem;
+     border-radius: 0.5rem;
+ }
+ .l_shape h1{
+     color: #232f3e;
+     position: relative;
+     font-family: 'Montserrat', sans-serif;
+     font-size: bold;
+     font-weight: bold;
+     top: 8.9rem;
+     left: 2.2rem;
+ }
+ .l_shape p{
+     position: relative;
+     top: 9.9rem;
+     left: 2.2rem;
+     font-family: 'Montserrat', sans-serif;
+     width: 88%;
+     font-size: 1.1rem;
+ }
+ .l_shape button{
+     position: relative;
+     left: 2.5rem;
+     width: 8rem;
+     top: 11.5rem;
+     height: 3rem;
+     background: linear-gradient(#7c3aed, #4f46e5);
+     border-radius: 0.5rem;
+     /* border: 3px solid black; */
+     color: white;
+     font-weight: bold;
+     font-size: 1rem;
+ }
+ #improve{
+   
+    height: 56vh;
+    width: 98vw;
+    /* overflow: hidden; */
+    position: relative;
+    top: 48rem;
+
+}
+.boxes{
+    display: flex;
+}
+.boxes img{
+    /* margin: 0px px; */
+    width: 35rem;
+    height: 22rem;
+    position: relative;
+    top: -0.1rem;
+}
+.content{
+    width: 51vw;
+    height: 57vh;
+    background-color: rgb(51, 46, 46);
+    
+}
+.improvetest1{
+    font-size: 2.2rem;
+    position: relative;
+    /* left: 10rem; */
+    left: 2rem;
+    font-weight: bold;
+    width: 30rem;
+    color: white;
+    /* background-color: cyan; */
+    /* text-align: center; */
+}
+.improvetest{
+    position:relative;
+    font-size: 1rem;
+    left: 2rem;
+    top: 1rem;
+    font-weight: bold;
+    /* text-align: center;   */
+    color: rgb(211, 200, 200);
+}
+.improvetest2{
+    position:relative;
+    left: 2rem;
+    /* text-align: center; */
+    font-size: 1rem;
+    width: 40vw;
+    color: rgb(211, 200, 200);
+}
+.getbtn{
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+    padding: 1.2rem;
+    width: 15rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    background-color: bisque;
+    color: #7c3aed;
+}
+
+
+
+#frequently{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 48rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    /* background-color: #7c3aed; */
+}
+.itemfrequently{
+    width: 100%;
+    margin: 2rem;
+    color:rgb(61, 57, 57);
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 1rem;
+}
+.itemfrequently2{
+    width: 100%;
+    margin: 2rem;
+    position: relative;
+    top:6rem;
+    color:rgb(61, 57, 57);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.itemfrequently .p1{
+    position: relative;
+    top: 3.5rem;  
+    color: #8f7a7a;
+
+}
+.itemfrequently2 .h4{
+    font-size: 1.2rem;
+    position: relative;
+    top: 2.1rem;
+}
+.itemfrequently2 .h7{
+    position: relative;
+
+}
+.itemfrequently .h4{
+    position: relative;
+    top: 3.7rem;  
+    font-size: 1.2rem;
+}
+.itemfrequently .p5{
+    position: relative;
+    top: 3.1rem;
+    color: #8f7a7a;
+}
+.itemfrequently2 .h5{
+    position: relative;
+    top: 4.6rem;
+}
+.itemfrequently2 .p6{
+    position: relative;
+    top: 2rem;
+    color: #8f7a7a;
+}
+.itemfrequently2 .p5{
+    position: relative;
+    top: 4.5rem;
+    color: #8f7a7a;
+}
+
+.account{
+    position: relative;
+    top: 60rem;
+    background-color: aqua;
+    width: 50vw;
+    height:40vh;
+    color: black;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+@media only screen and  (max-width:900px) {
+    .btn2{
+        display: flex;
+        position: relative;
+        bottom: 6rem;
+        left: 16rem;
+        display: flex;
+        flex-direction: column;
+
+}
+   @media only screen and  (max-width:1100px) {
+   
+    .head1{
+        position: relative;
+        top: -1rem;
+        left: 2rem;
+    }
+    .head2{
+        position: relative;
+        top: -5rem;
+        left: 8rem;
+        font-size: 2.3rem;
+    }
+    .homepara{
+        position: relative;
+        bottom: 7rem;
+        left: 6rem;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+   .btn2{
+    display: flex;
+    position: relative;
+    bottom: 6rem;
+    left: 16rem;
+  }
+
+}
+@media only screen and (min-width:300px) and (max-width:1247px) {
+ 
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .box2{
+        display: flex;
+        flex-direction: column;
+    }
+    .box img{
+    position: relative;
+    left: 15rem;
+    top: 4.2rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 0.3rem
+    }
+    .h1{
+        font-weight: bold;
+    width: 20rem;
+    color: black;
+    position: relative;
+    top: 4rem;
+    font-size: 1.8rem;
+    left: 11rem
+    } 
+    .p{
+    width: 27rem;
+    color: black;
+    position: relative;
+    top: 4rem;
+    font-size: 1.6rem;
+    left: 11rem;
+    }
+    .box2 img {
+        position: relative;
+        left: 15rem;
+        bottom: -12.8rem;
+        height: 3rem;
+        width: 3rem;
+        border-radius: 0.3rem;
+        top:28rem;
+        left: 17rem;
+        
+    }
+    #rapid2{
+        height: 27vh;
+    }
+    
+    .box2 .h2 {
+        width: 27rem;
+    color: black;
+    position: relative;
+    top: 28rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    left: 12rem;
+
+    }
+    .box2 .p1 {
+        width: 35rem;
+        color: black;
+        position: relative;
+        top: 27rem;
+        font-size: 1.6rem;
+        /* font-weight: bold; */
+        left: 12rem;
+    }
+    .box2 .p {
+        width: 31rem;
+    color: black;
+    position: relative;
+    top: 28.8rem;
+    font-size: 1.7rem;
+    /* font-weight: bold; */
+    left: 12rem;
+}
+.box2 .h1 {
+    width: 33rem;
+    color: black;
+    position: relative;
+    top: 29rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    left: 12rem;
+}
+.Actionable {
+    height: 54vh;
+    width: 106vw;
+    position: relative;
+    top: 45rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    position: relative;
+    right: 6rem;
+}
+
+.takeaways{
+    font-size: 1.5rem;
+    position: relative;
+    right: 6rem;
+
+}
+
+#para4 {
+        font-size: 1.6rem;
+        position: relative;
+        top: 3rem;
+        color: rgb(68, 72, 83);
+        width: 40rem;
+        left: 7rem;
+}
+.testing1{
+    position: relative;
+    left: 7rem;
+    font-size: 2rem;
+
+}
+.testing1 img {
+    width: 5rem;
+    height: 5rem;
+    position: relative;
+    left: 8rem;
+}
+#testpara{
+    font-size: 1.4rem;
+}
+
+.flex{
+
+    display: flex;
+    flex-direction: column;
+}
+.testingmage img{
+       /* display: flex; */
+       position: relative;
+       width: 33rem;
+       height: 29rem;
+       top: 2rem;
+       left: 2rem;
+       flex-direction: column;
+}
+
+
+#integrated{
+    position: relative;
+    top: 100rem;
+}
+.itemp{
+    font-size: 1.3rem;
+} 
+.itemp1{
+    font-size: 2rem;
+}
+.itemp3{
+    font-size: 1.3rem;
+}
+.intgret{
+    display: flex;
+    flex-direction: column;
+}
+
+.intgret img {
+    width: 5rem;
+    height: 5rem;
+    position: relative;
+    left: 22rem;
+}
+
+.github{
+    position: relative;
+    top: -8rem;
+    left: 8rem;
+    margin-bottom: 5rem;
+} 
+.github p {
+    font-size: 1.9rem;
+    width: 30rem;
+    
+}
+.github .head {
+font-size: 2.2rem;
+}
+
+
+.create{
+position: relative;
+top:106rem;
+}
+.start1 img{
+    width: 18rem;
+    height: 16rem;
+    position: relative;
+    left: 20rem;
+}
+.Moderated_testing{
+display: flex;
+flex-direction: column;
+justify-items: center;
+align-items: center;
+position: relative;
+top:18rem;
+}
+
+.l_shape img {
+    width: 7rem;
+    height: 6rem;
+    border: none;
+}
+.l_shape h1{
+    font-size: 1.9rem;
+    text-align: start;
+}
+.l_shape p{
+    font-size: 1.5rem;
+}
+.l_shape button{
+    font-size: 1.5rem;
+    width: 15rem;
+    height: 4rem;
+}
+.task{
+    font-size: 1.2rem;
+}
+.temp {
+    font-size: 2.2rem;
+}
+.text{
+    font-size: 1.4rem;
+}
+
+#improve{
+    position: relative;
+    top: 225rem;    
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes img{
+    width: 94vw;
+}
+
+.content {
+    width: 94vw;
+    height: 50vh;
+    background-color: rgb(51, 46, 46);
+}
+.improvetest{
+    font-size: 1.5rem;
+}
+.improvetest1{
+    font-size: 2rem;
+
+}
+.improvetest2{
+    font-size: 1.5rem;
+    width: 38rem;
+}
+.getbtn{
+    font-size: 1.4rem;
+}
+#frequently{
+    position: relative;
+    top: 250rem;
+}
+.itemfrequently{
+    font-size: 1.2rem;
+}
+}
+@media only screen and  (max-width:865px) {
+    
+
+
+.container .list{
+    height: 50vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    color: black;
+    flex-direction: column;
+    display: none;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 3rem;
+    background: rgb(192, 141, 141);
+    transition: top 1s ease;
+
+}
+ 
+.container .openmenu{
+    display: block;
+}
+
+.container .list .closemenu{
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+
+}
+
+.container .list li a:hover{
+    background: none;
+    color: orange;
+    font-size: 1rem;
+}
+}
